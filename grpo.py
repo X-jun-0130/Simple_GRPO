@@ -48,7 +48,7 @@ training_args = GRPOConfig(output_dir="./Train_Result/Qwen2-3B-GRPO",
                             vllm_gpu_memory_utilization = 0.8,
                             use_liger_kernel = True,
                             num_generations = 7,
-                            deepspeed="./config_file/ds_config_grpo.json",
+                            deepspeed="./ds_config_grpo.json",
                             report_to='tensorboard',
                             )
 #全局批次大小（ num_processes * per_device_train_batch_size ）必须能够整除 num_generations 
