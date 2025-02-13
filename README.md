@@ -25,7 +25,7 @@
 
 ### GRPO
 
-![image-20250213102507297](E:\Project_Files\Chatgpt\typora-user-images\image-20250213102507297.png)
+![image-grpo](https://github.com/X-jun-0130/Simple_GRPO/blob/main/grpo.png)
 
 整体上accuracy_reward 和 language_consistency_reward都是趋势向上，并在第二个epoch保持较为稳定, format_reward刚开始最好，后面稳定在0.9左右。
 
