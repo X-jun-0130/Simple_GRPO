@@ -53,7 +53,7 @@ training_args = GRPOConfig(output_dir="./Train_Result/Qwen2-3B-GRPO",
                             )
 #全局批次大小（ num_processes * per_device_train_batch_size ）必须能够整除 num_generations 
 
-model_args = ModelConfig(model_name_or_path="/Model_WiNGPT_SFT/qwen-3B-coldstart/",
+model_args = ModelConfig(model_name_or_path="/Model_SFT/qwen-3B-coldstart/",
                         torch_dtype="bfloat16",
                         attn_implementation="flash_attention_2",
                         )
