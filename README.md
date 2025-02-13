@@ -1,5 +1,7 @@
 # Simple_GRPO
 
+在训练grpo时，没有经过冷启动的小模型训练起来十分的费劲，这个项目在开始grpo训练前，经过少量数据的微调。
+
 ### Cold-Start
 
 - **model**
