@@ -7,10 +7,10 @@
 # Copyright 2025 The HuggingFace Team. All rights reserved.
 # -------------------------------------------------------------------------------
 
-# CUDA_VISIBLE_DEVICES=2,3,4,5,6,7 ACCELERATE_LOG_LEVEL=info accelerate launch --num_processes=5 /AAA-Nlp_2023/LLM-RL/Model_GRPO/grpo.py
+# CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ACCELERATE_LOG_LEVEL=info accelerate launch --num_processes=7 /AAA-Nlp_2023/LLM-RL/Model_GRPO/grpo.py
 
 #############################
-#命令行中num_processes = 5 表示训练时使用5个GPU，vllm推理时默认使用剩下得最后一个GPU
+#命令行中num_processes = 7 表示训练时使用7个GPU，vllm推理时默认使用剩下得最后一个GPU
 #############################
 
 import re
